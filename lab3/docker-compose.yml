@@ -1,0 +1,10 @@
+version: '2'
+services:
+  jenkins:
+    image: maaydin/petportal-jenkins:demo
+    ports:
+      - "8090:8080"
+  bitbucket:
+    image: maaydin/bitbucket:demo
+    ports:
+      - "7990:7990"
